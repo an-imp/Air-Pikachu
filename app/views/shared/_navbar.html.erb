@@ -10,7 +10,7 @@
           <li><%= link_to "Sign Up", new_user_registration_path %></li>
       <% else %>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= current_user.email %> <span class="caret"></span></a>
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= current_user.fullname %> <span class="caret"></span></a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
             <a class="dropdown-item" href="#">Manage Listing</a>
             <a class="dropdown-item" href="#">List Your Space</a>
